@@ -286,7 +286,6 @@ const AirBaseTechTree = () => {
               <Tech faction="rep" name="Efficient Manufacturing" food="250" nova="350" description="Airbase units cost 25% less to produce."></Tech>
               <Tech faction="rep" name="Shield Modifications" food="250" nova="500" description="Fighters, Attackers, Interceptors, and Bombers are shielded."></Tech>
               <Tech faction="rep" name="Armored Platework" carbon="350" nova="200" description="All Aircraft gain +4 aircraft armor."></Tech>
-              <Tech faction="rep" unique name="Air Cruiser Boost" carbon="200" nova="300" unitname="Galactic Republic Specific" description="Air Cruiser speed is increased by +10%."/>
               <Tech faction="rep" unique name="Gunship Armaments" nova="400" ore="150" unitname="Galactic Republic Specific" description="Loaded Attackers gain a secondary beam weapon."/>
             </Wrapper>
           </Building>
@@ -370,6 +369,8 @@ const FortressTechTree = () => {
               <Tech faction="rep" name="Automated Processes"  food="150" nova="150" description="Military units are now created 33% faster."></Tech>
               <Tech faction="rep" name="Presidium" food="250" carbon="400" nova="400" description="The Fortress is fortified with +1000 hit points."></Tech>
               <Tech faction="rep" name="Galactic Senate Hub" unique nova="500" ore="350" unitname="Galactic Republic Specific" description="Increases range and line of sight of the Fortress by +2, as well as increasing weapons attack against Air, Mechs, Heavy Weapons and Troopers by +2"/>
+              <Tech faction="rep" unique name="Air Cruiser Boost" carbon="200" nova="300" unitname="Galactic Republic Specific" description="Air Cruiser speed is increased by +10%."/>
+              
             </Wrapper>
           </Building>
           </Wrapper>

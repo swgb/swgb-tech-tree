@@ -322,8 +322,9 @@ const WarcenterTechTree = () => {
               </Wrapper>
             </Tech>
             <Tech faction="tf" name="Primary Focusing Coils" food="100" description="Makes your Mech Factory and Troop Center units (except Anti-Air Troopers) more powerful by giving them +1 attack.">
-              <Tech faction="tf" name="Cooling Sleeves" food="250" nova="150" description="Makes your Mech Factory and Troop Center units (except Anti-Air Troopers) more powerful by giving them +1 attack."></Tech>
-              <Tech faction="tf" name="Advanced Power Pack" food="300" nova="200" description="Makes your Mech Factory and Troop Center units (except Anti-Air Troopers) more powerful by giving them +2 attack."></Tech>
+              <Tech faction="tf" name="Cooling Sleeves" food="250" nova="150" description="Makes your Mech Factory and Troop Center units (except Anti-Air Troopers) more powerful by giving them +1 attack.">
+              <Tech faction="tf" name="Advanced Power Pack" food="300" nova="200" description="Makes your Mech Factory and Troop Center units (except Anti-Air Troopers) more powerful by giving them +2 attack."/>
+              </Tech>
             </Tech>
             <Wrapper>
             <Tech faction="tf" name="Redesigned Specifications" food="250" nova="150" description="Ships gain +1 armor and sea transport ships can now carry +5 units."></Tech>
@@ -413,7 +414,9 @@ const SpaceportTechTree = () => {
           <Tech faction="tf" name="Hutt Endorsement" food="150" nova="50" description="Reduces the fee for tributes to 20%.">
             <Tech faction="tf" name="Galactic Banking" food="200" nova="100" description="There is no longer a tribute fee.">
               <Wrapper>
-              <Tech faction="tf" name="Galactic Trade Comm" food="300" nova="200" description="Resource trading fee is reduced to 15%."></Tech>
+              <Tech faction="tf" name="Galactic Trade Comm" food="300" nova="200" description="Resource trading fee is reduced to 15%.">
+               <Tech faction="tf" name="Market Control" food="300" nova="225" unitname="Trade Federation Specific" description="There is no resource trading fee." unique />
+              </Tech>
               </Wrapper>
             </Tech>
           </Tech>
@@ -423,13 +426,6 @@ const SpaceportTechTree = () => {
           <Tech faction="tf" name="Holonet Tranceiver" nova="100" description="You and your allies share the same line of sight (you see what they see and vice versa)."></Tech>
           <Wrapper>
           <Unit faction="tf" name="Cargo Freighter" carbon="75" nova="25" hp="80" attack="0" armor="0" duraarmor="0" range="0" description="Used to trade with other players by air. Carries goods from your Spaceport to another player's Spaceport and brings back nova crystals. The farther the Spaceport, the higher your profit. To trade, click the Cargo Freighter, then right-click an allied or neutral Spaceport. Upgrades: more resistant to force users (Temple)."></Unit>
-          </Wrapper>
-          <Wrapper>
-            <Wrapper>
-              <Wrapper>
-                <Tech faction="tf" name="Market Control" food="300" nova="225" unitname="Trade Federation Specific" description="There is no resource trading fee." unique />
-              </Wrapper>
-            </Wrapper>
           </Wrapper>
         </Building>
       </Wrapper>
@@ -508,7 +504,7 @@ const AnimalNurseryTechTree = () => {
           <Wrapper>
             <Tech faction="tf" name="Genetics" food="125" carbon="125" description="Animals in the Nursery produce food 33% faster than base rate.">
               <Wrapper>
-                <Tech faction="tf" notResearchable name="Cloning" food="250" carbon="250" description="Animals in the Nursery produce food 50% faster than base rate." />
+                <Tech faction="tf" name="Cloning" food="250" carbon="250" description="Animals in the Nursery produce food 50% faster than base rate." />
               </Wrapper>
             </Tech>
           </Wrapper>
@@ -636,7 +632,7 @@ const ShieldGenTechTree = () => {
           <Wrapper connector={false}>
           <Building faction="tf" name="Shield Generator" ore="250" hp="1500" attack="0" armor="3" duraarmor="9" range="0" description="Grants shields to any units or buildings within range of its effect. A shield regenerates automatically when diminished and has a maximum value equal to the hit points of the unit or building. Needs a Power Core within range to function. Used to research Shield Generator upgrades. Upgrades: line of sight (Command Center); hit points, armor (Research Center); more resistant to force users (Temple)">
             <Tech faction="tf" name="Strengthened Superstructure" carbon="300" ore="100" description="Increases the hit points of a fixed Shield Generator by +250."></Tech>
-            <Tech faction="tf" notResearchable name="Supercondctg Shields" nova="300" ore="100" description="Decreases recharge time and increases drop off time for shield activation/deactivation within range of a shield generator."></Tech>
+            <Tech faction="tf" name="Supercondctg Shields" nova="300" ore="100" description="Decreases recharge time and increases drop off time for shield activation/deactivation within range of a shield generator."></Tech>
           </Building>
           </Wrapper>
         </Wrapper>

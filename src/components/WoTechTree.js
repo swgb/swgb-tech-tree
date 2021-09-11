@@ -220,7 +220,7 @@ const CommandCenterTechTree = () => {
         <Wrapper>
           <Wrapper>
             <Wrapper>
-              <Tech faction="wo" name="Bacta Tanks" carbon="200" ore="150" description="Units garrisoned within buildings and turrets heal at 4x the normal garrison heal rate."></Tech>
+              <Tech faction="wo" notResearchable name="Bacta Tanks" carbon="200" ore="150" description="Units garrisoned within buildings and turrets heal at 4x the normal garrison heal rate."></Tech>
               <Tech faction="wo" unique name="Self Regeneration" food="600" carbon="325" nova="350" unitname="Wookiee Specific" description="All biological units (except Workers) regenerate health automatically and all Troop Center units gain +30 hit points and +2 duraarmor." />
             </Wrapper>
           </Wrapper>
@@ -238,7 +238,7 @@ const ResearchCenterTechTree = () => {
          <Wrapper connector={false}>
            <Building faction="wo" name="Research Center" carbon="210" hp="2000" attack="0" armor="3" duraarmor="9" range="0" description="Used to improve buildings and ranged units. Upgrades: line of sight (Command Center); hit points, armor (Research Center); more resistant to force users (Temple)">
              <Tech faction="wo" name="Durasteel Suppt Beams" food="175" ore="150" description="Building hit points and armor are increased by 10%.">
-             <Tech faction="wo" notResearchable name="Permacite Plating" carbon="200" ore="150" description="Building and turret hit points are increased by +10% and armor is increased by +1/+1."></Tech>
+             <Tech faction="wo" name="Permacite Plating" carbon="200" ore="150" description="Building and turret hit points are increased by +10% and armor is increased by +1/+1."></Tech>
              </Tech>
              <Tech faction="wo" name="Ion Accu Accelerator" carbon="350" nova="150" description="Laser Turrets cause 225% more damage in general and do 50% more damage when attacking ships."></Tech>
              <Tech faction="wo" name="Rotation Bearings" food="200" ore="100" description="Turrets have no minimum range.">
@@ -365,7 +365,7 @@ const FortressTechTree = () => {
               <Tech faction="wo" name="Bothan Spy Net" nova="100" description="In regular game, reveals all enemy units and buildings by showing you their line of sight. The total cost is 100 Nova per enemy worker."></Tech>
               <Tech faction="wo" name="Attack Programming" food="400" nova="200" description="Workers gain +15 attack against buildings, turrets and walls."></Tech>
               <Tech faction="wo"  name="Automated Processes"  food="150" nova="150" description="Military units are now created 33% faster."></Tech>
-              <Tech faction="wo" notResearchable name="Presidium" food="250" carbon="400" nova="400" description="The Fortress is fortified with +1000 hit points."></Tech>
+              <Tech faction="wo"  name="Presidium" food="250" carbon="400" nova="400" description="The Fortress is fortified with +1000 hit points."></Tech>
               <Tech faction="wo" unique name="Berserker Jet Packs" carbon="300" nova="200" unitname="Wookiee Specific" description="Berserkers gain +10% speed."/>
             </Wrapper>
           </Building>

@@ -33,7 +33,7 @@ function App() {
                   This website contains tech trees for the base factions and the <a href="https://www.moddb.com/mods/star-wars-galactic-battlegrounds-expanding-fronts">Expanded Fronts mod factions</a><br/>
                   Please message <i>aoe2#9999</i> or <i>petr#9882</i> on Discord if you see any errors.<br/>
                   We recommend joining <a href="https://discord.gg/uHS9rrS8RY">Expanded Fronts discord server.</a><br/>
-                  <i>Last updated on 09/08/2021</i>. - Project source code @ <a href="https://github.com/azurda/swgb-tech-tree">Github</a>.     
+                  <i>Last updated on 09/10/2021</i>. - Project source code @ <a href="https://github.com/azurda/swgb-tech-tree">Github</a>.     
                 </Fragment>
                 </div>
         </section>

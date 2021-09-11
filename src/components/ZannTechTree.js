@@ -61,7 +61,7 @@ const TroopCenterTechTree = () => {
       <Wrapper>
         <Wrapper>
         <Tech faction="za" name="Droid Assistants" food="100" carbon="100" description="All Troop Center units are created 20% faster."></Tech>
-        <Tech faction="za" notResearchable name="Explosive Yields Increase" food="300" nova="450" description="Grenades do double the damage in double the area of attack." ></Tech>
+        <Tech faction="za" name="Explosive Yields Increase" food="300" nova="450" description="Grenades do double the damage in double the area of attack." ></Tech>
         </Wrapper>
       </Wrapper>
       </Wrapper>
@@ -354,8 +354,8 @@ const FortressTechTree = () => {
           <Wrapper connector={false}>
           <Building faction="za" name="Fortress" ore="550" hp="5000" attack="11" armor="8" duraarmor="11" range="8" description="Used to create your unique unit, build Air Cruisers, Cannons and Bounty Hunters, and improve workers and buildings. Possesses an effective anti-air defense system. Adds population support for 20 units. Cannot be converted by enemy force users. Upgrades: line of sight (Command Center); hit points (Fortress); attack, range, line of sight (War Center); hit points, armor, range (Research Center);">
             <Unit faction="za" name="Bounty Hunter" food="150" carbon="150" hp="175" attack="15" armor="2" duraarmor="2" range="7" description="Ranged combat unit. Detector unit. Very strong vs. force users. Upgrades: creation speed (Fortress); more resistant to force users (Temple)"></Unit>
-            <Unit faction="za" name="Defiler" food="90" nova="160" hp="90" attack="3" armor="1" duraarmor="4" range="7" description="Zann Consortium unique unit. Defilers are Zann's top agents, responsible for spreading corruption throughout the galaxy. Defilers carry powerful repeating grenade launchers that can deal severe damage to mechs, structures, and tight groups of infantry. Upgrades: creation speed, to Veteran Defiler 600F, 400N (Fortress); armor, attack (War Center); attack, build speed, range, line of sight, speed (Troop Center); more resistant to force users (Temple)">
-              <Unit faction="za" name="Veteran Defiler" food="90" nova="160" hp="110" attack="3" armor="1" duraarmor="5" range="7" description="Zann Consortium unique unit. Stronger than Defiler. Defilers are Zann's top agents, responsible for spreading corruption throughout the galaxy. Defilers carry powerful repeating grenade launchers that can deal severe damage to mechs, structures, and tight groups of infantry. Upgrades: creation speed(Fortress); armor, attack (War Center); attack, build speed, range, line of sight, speed (Troop Center); more resistant to force users (Temple)"></Unit>
+            <Unit faction="za" unique name="Defiler" food="90" nova="160" hp="90" attack="3" armor="1" duraarmor="4" range="7" description="Zann Consortium unique unit. Defilers are Zann's top agents, responsible for spreading corruption throughout the galaxy. Defilers carry powerful repeating grenade launchers that can deal severe damage to mechs, structures, and tight groups of infantry. Upgrades: creation speed, to Veteran Defiler 600F, 400N (Fortress); armor, attack (War Center); attack, build speed, range, line of sight, speed (Troop Center); more resistant to force users (Temple)">
+              <Unit faction="za" unique name="Veteran Defiler" food="90" nova="160" hp="110" attack="3" armor="1" duraarmor="5" range="7" description="Zann Consortium unique unit. Stronger than Defiler. Defilers are Zann's top agents, responsible for spreading corruption throughout the galaxy. Defilers carry powerful repeating grenade launchers that can deal severe damage to mechs, structures, and tight groups of infantry. Upgrades: creation speed(Fortress); armor, attack (War Center); attack, build speed, range, line of sight, speed (Troop Center); more resistant to force users (Temple)"></Unit>
             </Unit>
             <Wrapper>
               <Unit faction="za" name="Air Cruiser" food="600" nova="600" hp="260" attack="80" armor="0" duraarmor="0" range="12" unitname="Peacebringer" description="Artillery combat unit. Very effective against turrets, buildings, and walls. Especially good against units. Extremely long reload rate. Counts as two population towards the limit. Cannot be converted by Jedi. Upgrades: speed (Airbase); creation speed (Fortress)"></Unit>
@@ -511,9 +511,7 @@ const AnimalNurseryTechTree = () => {
       <Wrapper>
           <Wrapper>
               <Wrapper>
-                  <Wrapper>
-                      <Tech faction="za" name="Vornskr" unique food="110" hp="100" attack="2" armor="1" duraarmor="1" range="0" description="Melee combat unit. Detector unit, immune to conversion. These predatory canines native to the planet Myrkr have the unique ability to detect the Force. They use this power to aid in hunting their natural prey, the Force-sensitive Ysalamiri. The Consortium exploits this unusual talent, capturing and training these beasts to sniff out infiltrators - particularly Jedi. Upgrades: creation speed (Fortress); armor, attack (War Center); build speed, line of sight, speed (Troop Center); more resistant to force users (Temple)"/>
-                  </Wrapper>
+                <Tech faction="za" name="Vornskr" unique food="110" hp="100" attack="2" armor="1" duraarmor="1" range="0" description="Melee combat unit. Detector unit, immune to conversion. These predatory canines native to the planet Myrkr have the unique ability to detect the Force. They use this power to aid in hunting their natural prey, the Force-sensitive Ysalamiri. The Consortium exploits this unusual talent, capturing and training these beasts to sniff out infiltrators - particularly Jedi. Upgrades: creation speed (Fortress); armor, attack (War Center); build speed, line of sight, speed (Troop Center); more resistant to force users (Temple)"/>
               </Wrapper>
           </Wrapper>
       </Wrapper>
