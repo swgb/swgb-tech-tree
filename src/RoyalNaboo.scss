@@ -1,0 +1,653 @@
+// royal naboo
+
+.icon-rn-Troop.Center {
+    background: url('https://res.cloudinary.com/swbgtechtree/image/upload/v1630678982/rn/troop-center.png') round;
+  }
+  .icon-rn-Trooper.Recruit {
+    background: url('https://res.cloudinary.com/swbgtechtree/image/upload/v1630678982/rn/trooper-recruit.png') round;
+  }
+  .icon-rn-Trooper {
+    background: url('https://res.cloudinary.com/swbgtechtree/image/upload/v1630678982/rn/trooper.png') round;
+  }
+  .icon-rn-Hvy\..Trooper {
+    background: url('https://res.cloudinary.com/swbgtechtree/image/upload/v1630678982/rn/hvy-trooper.png') round;
+  }
+  .icon-rn-Repeater.Trooper {
+    background: url('https://res.cloudinary.com/swbgtechtree/image/upload/v1630928553/red_x.png') round, url('https://res.cloudinary.com/swbgtechtree/image/upload/v1630678982/rn/repeater-trooper.png') round;
+  }
+  .icon-rn-Grenade.Trooper {
+    background: url('https://res.cloudinary.com/swbgtechtree/image/upload/v1630678982/rn/grenade-trooper.png') round;
+  }
+  .icon-rn-Anti-Air.Trooper {
+    background: url('https://res.cloudinary.com/swbgtechtree/image/upload/v1630678982/rn/anti-air-trooper.png') round;
+  }
+  
+  .icon-rn-Hvy\..Anti-Air.Trooper {
+    background: url('https://res.cloudinary.com/swbgtechtree/image/upload/v1630678982/rn/hvy-anti-air-trooper.png') round;
+  }
+  .icon-rn-Mounted.Trooper {
+    background: url('https://res.cloudinary.com/swbgtechtree/image/upload/v1630678982/rn/mounted-trooper.png') round;
+  }
+  .icon-rn-Hvy\..Mounted.Trooper {
+    background: url('https://res.cloudinary.com/swbgtechtree/image/upload/v1630678982/rn/hvy-mounted-trooper.png') round;
+  }
+  .icon-rn-Adv\..Mounted.Trooper {
+    background: url('https://res.cloudinary.com/swbgtechtree/image/upload/v1630928553/red_x.png') round, url('https://res.cloudinary.com/swbgtechtree/image/upload/v1630678982/rn/adv-mounted-trooper.png') round;
+  }
+  
+  .icon-rn-Macro.Binoculars {
+    background: url('https://res.cloudinary.com/swbgtechtree/image/upload/v1630678982/rn/macro-binoculars.png') round;
+  }
+  
+  .icon-rn-Lighter.Armor {
+    background: url('https://res.cloudinary.com/swbgtechtree/image/upload/v1630678982/rn/lighter-armor.png') round;
+  }
+  .icon-rn-Plasma.Detonators {
+    background: url('https://res.cloudinary.com/swbgtechtree/image/upload/v1630678982/rn/plasma-detonators.png') round;
+  }
+  .icon-rn-Dexterity {
+    background: url('https://res.cloudinary.com/swbgtechtree/image/upload/v1630928553/red_x.png') round, url('https://res.cloudinary.com/swbgtechtree/image/upload/v1630678982/rn/dexterity.png') round;
+  }
+  .icon-rn-Droid.Assistants {
+    background: url('https://res.cloudinary.com/swbgtechtree/image/upload/v1630928553/red_x.png') round, url('https://res.cloudinary.com/swbgtechtree/image/upload/v1630678982/rn/droid-assistants.png') round;
+  }
+  
+  .icon-rn-Explosive.Yields.Increase {
+    background: url('https://res.cloudinary.com/swbgtechtree/image/upload/v1630678982/rn/explosive-yields-increased.png') round;
+  }
+  
+  .icon-rn-Portable.Scanners {
+    background: url('https://res.cloudinary.com/swbgtechtree/image/upload/v1630678982/rn/portable-scanners.png') round;
+  }
+  
+  .icon-rn-Integrated.Rangefinder {
+    background: url('https://res.cloudinary.com/swbgtechtree/image/upload/v1630928553/red_x.png') round, url('https://res.cloudinary.com/swbgtechtree/image/upload/v1630678982/rn/integrated-rangefinder.png') round;
+  }
+  
+  .icon-rn-Jedi.Temple {
+    background: url('https://res.cloudinary.com/swbgtechtree/image/upload/v1630678982/rn/jedi-temple.png') round;
+  }
+  
+  .icon-rn-Jedi.Padawan {
+    background: url('https://res.cloudinary.com/swbgtechtree/image/upload/v1630678982/rn/jedi-padawan.png') round;
+  }
+  .icon-rn-Jedi.Knight {
+    background: url('https://res.cloudinary.com/swbgtechtree/image/upload/v1630678982/rn/jedi-knight.png') round;
+  }
+  .icon-rn-Jedi.Master {
+    background: url('https://res.cloudinary.com/swbgtechtree/image/upload/v1630678982/rn/jedi-master.png') round;
+  }
+  .icon-rn-Force.Stamina {
+    background: url('https://res.cloudinary.com/swbgtechtree/image/upload/v1630678982/rn/force-stamina.png') round;
+  }
+  .icon-rn-Force.Strong {
+    background: url('https://res.cloudinary.com/swbgtechtree/image/upload/v1630928553/red_x.png') round, url('https://res.cloudinary.com/swbgtechtree/image/upload/v1630678982/rn/force-strong.png') round;
+  }
+  .icon-rn-Force.Agility {
+    background: url('https://res.cloudinary.com/swbgtechtree/image/upload/v1630678982/rn/force-agility.png') round;
+  }
+  .icon-rn-Faith.in.the.Force {
+    background: url('https://res.cloudinary.com/swbgtechtree/image/upload/v1630678982/rn/faith-in-the-force.png') round;
+  }
+  .icon-rn-Force.Concentration {
+    background: url('https://res.cloudinary.com/swbgtechtree/image/upload/v1630678982/rn/force-concentration.png') round;
+  }
+  .icon-rn-Force.Meditation {
+    background: url('https://res.cloudinary.com/swbgtechtree/image/upload/v1630678982/rn/force-meditation.png') round;
+  }
+  .icon-rn-Force.Perception {
+    background: url('https://res.cloudinary.com/swbgtechtree/image/upload/v1630678982/rn/force-perception.png') round;
+  }
+  
+  .icon-rn-Jedi.Mind.Trick {
+    background: url('https://res.cloudinary.com/swbgtechtree/image/upload/v1630678982/rn/jedi-mind-trick.png') round;
+  }
+  
+  .icon-rn-Force.Purge {
+    background: url('https://res.cloudinary.com/swbgtechtree/image/upload/v1630928553/red_x.png') round, url('https://res.cloudinary.com/swbgtechtree/image/upload/v1630678982/rn/force-purge.png') round;
+  }
+  
+  .icon-rn-Airbase {
+    background: url('https://res.cloudinary.com/swbgtechtree/image/upload/v1630678982/rn/airbase.png') round;
+  }
+  .icon-rn-Air.Transport {
+    background: url('https://res.cloudinary.com/swbgtechtree/image/upload/v1630678982/rn/air-transport.png') round;
+  }
+  .icon-rn-Bomber {
+    background: url('https://res.cloudinary.com/swbgtechtree/image/upload/v1630678982/rn/bomber.png') round;
+  }
+  .icon-rn-Enh.Bomber {
+    background: url('https://res.cloudinary.com/swbgtechtree/image/upload/v1630678982/rn/enh-bomber.png') round;
+  }
+  .icon-rn-Adv.Bomber {
+    background: url('https://res.cloudinary.com/swbgtechtree/image/upload/v1630678982/rn/adv-bomber.png') round;
+  }
+  .icon-rn-Fighter {
+    background: url('https://res.cloudinary.com/swbgtechtree/image/upload/v1630678982/rn/fighter.png') round;
+  }
+  .icon-rn-Fast.Fighter {
+    background: url('https://res.cloudinary.com/swbgtechtree/image/upload/v1630678982/rn/fast-fighter.png') round;
+  }
+  .icon-rn-Adv.Fighter {
+    background: url('https://res.cloudinary.com/swbgtechtree/image/upload/v1630678982/rn/adv-fighter.png') round;
+  }
+  .icon-rn-Flight.School {
+    background: url('https://res.cloudinary.com/swbgtechtree/image/upload/v1630678982/rn/flight-school.png') round;
+  }
+  .icon-rn-Advanced.Flight.School {
+    background: url('https://res.cloudinary.com/swbgtechtree/image/upload/v1630678982/rn/advanced-flight-school.png') round;
+  }
+  .icon-rn-Enlarged.Bomb.Hold {
+    background: url('https://res.cloudinary.com/swbgtechtree/image/upload/v1630678982/rn/enlarged-bomb-hold.png') round;
+  }
+  .icon-rn-Attacker {
+    background: url('https://res.cloudinary.com/swbgtechtree/image/upload/v1630678982/rn/attacker.png') round;
+  }
+  .icon-rn-Efficient.Manufacturing {
+    background: url('https://res.cloudinary.com/swbgtechtree/image/upload/v1630678982/rn/efficient-manufacturing.png') round;
+  }
+  .icon-rn-Shield.Modifications {
+    background: url('https://res.cloudinary.com/swbgtechtree/image/upload/v1630678982/rn/shield-modifications.png') round;
+  }
+  .icon-rn-Armored.Platework {
+    background: url('https://res.cloudinary.com/swbgtechtree/image/upload/v1630678982/rn/armored-platework.png') round;
+  }
+  
+  .icon-rn-Mech.Factory {
+    background: url('https://res.cloudinary.com/swbgtechtree/image/upload/v1630678982/rn/mech-factory.png') round;
+  }
+  
+  .icon-rn-Scout {
+    background: url('https://res.cloudinary.com/swbgtechtree/image/upload/v1630678982/rn/scout.png') round;
+  }
+  
+  .icon-rn-Strike.Mech {
+    background: url('https://res.cloudinary.com/swbgtechtree/image/upload/v1630678982/rn/strike-mech.png') round;
+  }
+  .icon-rn-Hvy.Strike.Mech {
+    background: url('https://res.cloudinary.com/swbgtechtree/image/upload/v1630678982/rn/hvy-strike-mech.png') round;
+  }
+  .icon-rn-Mech.Destroyer {
+    background: url('https://res.cloudinary.com/swbgtechtree/image/upload/v1630678982/rn/mech-destroyer.png') round;
+  }
+  .icon-rn-Hvy.Mech.Destroyer {
+    background: url('https://res.cloudinary.com/swbgtechtree/image/upload/v1630928553/red_x.png') round, url('https://res.cloudinary.com/swbgtechtree/image/upload/v1630678982/rn/hvy-mech-destroyer.png') round;
+  }
+  .icon-rn-Upgraded.Generator {
+    background: url('https://res.cloudinary.com/swbgtechtree/image/upload/v1630678982/rn/upgraded-generator.png') round;
+  }
+  
+  .icon-rn-Adv.Generator{
+    background: url('https://res.cloudinary.com/swbgtechtree/image/upload/v1630928553/red_x.png') round, url('https://res.cloudinary.com/swbgtechtree/image/upload/v1630678982/rn/adv-generator.png') round;
+  }
+  .icon-rn-Transport.Mech {
+    background: url('https://res.cloudinary.com/swbgtechtree/image/upload/v1630678982/rn/transport-mech.png') round;
+  }
+  .icon-rn-Assault.Mech {
+    background: url('https://res.cloudinary.com/swbgtechtree/image/upload/v1630678982/rn/assault-mech.png') round;
+  }
+  .icon-rn-Force.Influence {
+    background: url('https://res.cloudinary.com/swbgtechtree/image/upload/v1630678982/rn/force-influence.png') round;
+  }
+  .icon-rn-Hvy.Assault.Mech {
+    background: url('https://res.cloudinary.com/swbgtechtree/image/upload/v1630928553/red_x.png') round, url('https://res.cloudinary.com/swbgtechtree/image/upload/v1630678982/rn/hvy-assault-mech.png') round;
+  }
+  
+  .icon-rn-Shipyard {
+    background: url('https://res.cloudinary.com/swbgtechtree/image/upload/v1630678982/rn/shipyard.png') round;
+  }
+  .icon-rn-Utility.Trawler {
+    background: url('https://res.cloudinary.com/swbgtechtree/image/upload/v1630678982/rn/utility-trawler.png') round;
+  }
+  .icon-rn-Aqua.Harvester {
+    background: url('https://res.cloudinary.com/swbgtechtree/image/upload/v1630678982/rn/aqua-harvester.png') round;
+  }
+  .icon-rn-Sensor.Buoy {
+    background: url('https://res.cloudinary.com/swbgtechtree/image/upload/v1630678982/rn/sensor-buoy.png') round;
+  }
+  
+  .icon-rn-Lt.Frigate {
+    background: url('https://res.cloudinary.com/swbgtechtree/image/upload/v1630678982/rn/lt-frigate.png') round;
+  }
+  .icon-rn-Frigate {
+    background: url('https://res.cloudinary.com/swbgtechtree/image/upload/v1630678982/rn/frigate.png') round;
+  }
+  .icon-rn-Adv.Frigate {
+    background: url('https://res.cloudinary.com/swbgtechtree/image/upload/v1630678982/rn/adv-frigate.png') round;
+  }
+  .icon-rn-Transport.Ship {
+    background: url('https://res.cloudinary.com/swbgtechtree/image/upload/v1630678982/rn/transport-ship.png') round;
+  }
+  
+  .icon-rn-Destroyer {
+    background: url('https://res.cloudinary.com/swbgtechtree/image/upload/v1630678982/rn/destroyer.png') round;
+  }
+  .icon-rn-Hvy.Destroyer {
+    background: url('https://res.cloudinary.com/swbgtechtree/image/upload/v1630678982/rn/hvy-destroyer.png') round;
+  }
+  .icon-rn-Anti-Air.Destroyer {
+    background: url('https://res.cloudinary.com/swbgtechtree/image/upload/v1630678982/rn/anti-air-destroyer.png') round;
+  }
+  .icon-rn-Hvy.Anti-Air.Destroyer {
+    background: url('https://res.cloudinary.com/swbgtechtree/image/upload/v1630678982/rn/hvy-anti-air-destroyer.png') round;
+  }
+  
+  .icon-rn-Monitor {
+    background: url('https://res.cloudinary.com/swbgtechtree/image/upload/v1630678982/rn/monitor.png') round;
+  }
+  .icon-rn-Hvy.Monitor {
+    background: url('https://res.cloudinary.com/swbgtechtree/image/upload/v1630678982/rn/hvy-monitor.png') round;
+  }
+  .icon-rn-Cruiser {
+    background: url('https://res.cloudinary.com/swbgtechtree/image/upload/v1630678982/rn/cruiser.png') round;
+  }
+  .icon-rn-Adv.Cruiser {
+    background: url('https://res.cloudinary.com/swbgtechtree/image/upload/v1630678982/rn/adv-cruiser.png') round;
+  }
+  
+  .icon-rn-Hvy.Weapons.Factory {
+    background: url('https://res.cloudinary.com/swbgtechtree/image/upload/v1630678982/rn/hvy-weapons-factory.png') round;
+  }
+  
+  .icon-rn-Pummel {
+    background: url('https://res.cloudinary.com/swbgtechtree/image/upload/v1630678982/rn/pummel.png') round;
+  }
+  
+  .icon-rn-Hvy.Pummel {
+    background: url('https://res.cloudinary.com/swbgtechtree/image/upload/v1630928553/red_x.png') round, url('https://res.cloudinary.com/swbgtechtree/image/upload/v1630678982/rn/hvy-pummel.png') round;
+  }
+  
+  .icon-rn-Anti-Air.Retrofit {
+    background: url('https://res.cloudinary.com/swbgtechtree/image/upload/v1630928553/red_x.png') round, url('https://res.cloudinary.com/swbgtechtree/image/upload/v1630678982/rn/anti-air-retrofit.png') round;
+  }
+  
+  .icon-rn-Reinforced.Frame {
+    background: url('https://res.cloudinary.com/swbgtechtree/image/upload/v1630928553/red_x.png') round, url('https://res.cloudinary.com/swbgtechtree/image/upload/v1630678982/rn/reinforced-frame.png') round;
+  }
+  
+  .icon-rn-Artillery {
+    background: url('https://res.cloudinary.com/swbgtechtree/image/upload/v1630678982/rn/artillery.png') round;
+  }
+  .icon-rn-Hvy.Artillery {
+    background: url('https://res.cloudinary.com/swbgtechtree/image/upload/v1630928553/red_x.png') round, url('https://res.cloudinary.com/swbgtechtree/image/upload/v1630678982/rn/hvy-artillery.png') round;
+  }
+  
+  .icon-rn-Anti-Air.Mobile {
+    background: url('https://res.cloudinary.com/swbgtechtree/image/upload/v1630678982/rn/anti-air-mobile.png') round;
+  }
+  
+  .icon-rn-Hvy.Anti-Air.Mobile {
+    background: url('https://res.cloudinary.com/swbgtechtree/image/upload/v1630678982/rn/hvy-anti-air-mobile.png') round;
+  }
+  
+  .icon-rn-Strengthened.Frame {
+    background: url('https://res.cloudinary.com/swbgtechtree/image/upload/v1630678982/rn/strengthened-frame.png') round;
+  }
+  
+  .icon-rn-Air.Cruiser {
+    background: url('https://res.cloudinary.com/swbgtechtree/image/upload/v1630678982/rn/air-cruiser.png') round;
+  }
+  
+  .icon-rn-Cannon {
+    background: url('https://res.cloudinary.com/swbgtechtree/image/upload/v1630678982/rn/cannon.png') round;
+  }
+  
+  .icon-rn-Bothan.Spy.Net {
+    background: url('https://res.cloudinary.com/swbgtechtree/image/upload/v1630678982/rn/bothan-spy-net.png') round;
+  }
+  
+  .icon-rn-Attack.Programming {
+    background: url('https://res.cloudinary.com/swbgtechtree/image/upload/v1630678982/rn/attack-programming.png') round;
+  }
+  
+  .icon-rn-Automated.Processes {
+    background: url('https://res.cloudinary.com/swbgtechtree/image/upload/v1630678982/rn/automated-processes.png') round;
+  }
+  .icon-rn-Presidium {
+    background: url('https://res.cloudinary.com/swbgtechtree/image/upload/v1630678982/rn/presidium.png') round;
+  }
+  
+  .icon-rn-Bounty.Hunter {
+    background: url('https://res.cloudinary.com/swbgtechtree/image/upload/v1630678982/rn/bounty-hunter.png') round;
+  }
+  
+  .icon-rn-Fortress {
+    background: url('https://res.cloudinary.com/swbgtechtree/image/upload/v1630678982/rn/fortress.png') round;
+  }
+  
+  .icon-rn-Worker {
+    background: url('https://res.cloudinary.com/swbgtechtree/image/upload/v1630678982/rn/worker.png') round;
+  }
+  
+  .icon-rn-Medic {
+    background: url('https://res.cloudinary.com/swbgtechtree/image/upload/v1630678982/rn/medic.png') round;
+  }
+  
+  .icon-rn-Basic.Training {
+    background: url('https://res.cloudinary.com/swbgtechtree/image/upload/v1630678982/rn/basic-training.png') round;
+  }
+  
+  .icon-rn-Sensor.Beacon {
+    background: url('https://res.cloudinary.com/swbgtechtree/image/upload/v1630678982/rn/sensor-beacon.png') round;
+  }
+  
+  .icon-rn-Sensor.Array {
+    background: url('https://res.cloudinary.com/swbgtechtree/image/upload/v1630678982/rn/sensor-array.png') round;
+  }
+  
+  .icon-rn-Upgraded.Motivator {
+    background: url('https://res.cloudinary.com/swbgtechtree/image/upload/v1630678982/rn/upgraded-motivator.png') round;
+  }
+  
+  .icon-rn-Optimized.Motivator {
+    background: url('https://res.cloudinary.com/swbgtechtree/image/upload/v1630678982/rn/optimized-motivator.png') round;
+  }
+  
+  .icon-rn-Bacta.Tanks {
+    background: url('https://res.cloudinary.com/swbgtechtree/image/upload/v1630678982/rn/bacta-tanks.png') round;
+  }
+  
+  .icon-rn-Command.Center {
+    background: url('https://res.cloudinary.com/swbgtechtree/image/upload/v1630678982/rn/command-center.png') round;
+  }
+  
+  .icon-rn-War.Center {
+    background: url('https://res.cloudinary.com/swbgtechtree/image/upload/v1630678982/rn/war-center.png') round;
+  }
+  .icon-rn-Basic.Armor {
+    background: url('https://res.cloudinary.com/swbgtechtree/image/upload/v1630678982/rn/basic-armor.png') round;
+  }
+  .icon-rn-Light.Armor {
+    background: url('https://res.cloudinary.com/swbgtechtree/image/upload/v1630678982/rn/light-armor.png') round;
+  }
+  .icon-rn-Hvy.Armor {
+    background: url('https://res.cloudinary.com/swbgtechtree/image/upload/v1630678982/rn/hvy-armor.png') round;
+  }
+  .icon-rn-Elevation.Tracking {
+    background: url('https://res.cloudinary.com/swbgtechtree/image/upload/v1630678982/rn/elevation-tracking.png') round;
+  }
+  .icon-rn-External.Sensor.Pod {
+    background: url('https://res.cloudinary.com/swbgtechtree/image/upload/v1630678982/rn/external-sensor-pod.png') round;
+  }
+  .icon-rn-Targeting.Sensor {
+    background: url('https://res.cloudinary.com/swbgtechtree/image/upload/v1630678982/rn/targeting-sensor.png') round;
+  }
+  .icon-rn-Light.Plating {
+    background: url('https://res.cloudinary.com/swbgtechtree/image/upload/v1630678982/rn/light-plating.png') round;
+  }
+  .icon-rn-Medium.Plating {
+    background: url('https://res.cloudinary.com/swbgtechtree/image/upload/v1630678982/rn/medium-plating.png') round;
+  }
+  .icon-rn-Hvy.Plating {
+    background: url('https://res.cloudinary.com/swbgtechtree/image/upload/v1630678982/rn/hvy-plating.png') round;
+  }
+  .icon-rn-Primary.Focusing.Coils {
+    background: url('https://res.cloudinary.com/swbgtechtree/image/upload/v1630678982/rn/primary-focusing-coils.png') round;
+  }
+  .icon-rn-Cooling.Sleeves {
+    background: url('https://res.cloudinary.com/swbgtechtree/image/upload/v1630678982/rn/cooling-sleeves.png') round;
+  }
+  
+  .icon-rn-Advanced.Power.Pack {
+    background: url('https://res.cloudinary.com/swbgtechtree/image/upload/v1630678982/rn/advanced-power-pack.png') round;
+  }
+  .icon-rn-Redesigned.Specifications {
+    background: url('https://res.cloudinary.com/swbgtechtree/image/upload/v1630678982/rn/redesigned-specifications.png') round;
+  }
+  
+  .icon-rn-Grenadier.Training {
+    background: url('https://res.cloudinary.com/swbgtechtree/image/upload/v1630678982/rn/grenadier-training.png') round;
+  }
+  .icon-rn-Advanced.Scanning {
+    background: url('https://res.cloudinary.com/swbgtechtree/image/upload/v1630678982/rn/advanced-scanning.png') round;
+  }
+  
+  .icon-rn-Spaceport {
+    background: url('https://res.cloudinary.com/swbgtechtree/image/upload/v1630678982/rn/spaceport.png') round;
+  }
+  
+  .icon-rn-Cargo.Hovercraft {
+    background: url('https://res.cloudinary.com/swbgtechtree/image/upload/v1630678982/rn/cargo-hovercraft.png') round;
+  }
+  .icon-rn-Hutt.Endorsement {
+    background: url('https://res.cloudinary.com/swbgtechtree/image/upload/v1630678982/rn/hutt-endorsement.png') round;
+  }
+  
+  .icon-rn-Galactic.Banking {
+    background: url('https://res.cloudinary.com/swbgtechtree/image/upload/v1630678982/rn/galactic-banking.png') round;
+  }
+  
+  .icon-rn-Galactic.Trade.Comm {
+    background: url('https://res.cloudinary.com/swbgtechtree/image/upload/v1630678982/rn/galactic-trade-commission.png') round;
+  }
+  .icon-rn-Holonet.Tranceiver {
+    background: url('https://res.cloudinary.com/swbgtechtree/image/upload/v1630678982/rn/holonet-tranceiver.png') round;
+  }
+  
+  
+  .icon-rn-Cargo.Freighter {
+    background: url('https://res.cloudinary.com/swbgtechtree/image/upload/v1630678982/rn/cargo-freighter.png') round;
+  }
+  
+  .icon-rn-Research.Center {
+    background: url('https://res.cloudinary.com/swbgtechtree/image/upload/v1630678982/rn/research-center.png') round;
+  }
+  
+  .icon-rn-Durasteel.Suppt.Beams {
+    background: url('https://res.cloudinary.com/swbgtechtree/image/upload/v1630678982/rn/durasteel-support-beams.png') round;
+  }
+  
+  .icon-rn-Permacite.Plating {
+    background: url('https://res.cloudinary.com/swbgtechtree/image/upload/v1630678982/rn/permacite-plating.png') round;
+  }
+  
+  .icon-rn-Ion.Accu.Accelerator {
+    background: url('https://res.cloudinary.com/swbgtechtree/image/upload/v1630678982/rn/ion-accu-accelerator.png') round;
+  }
+  
+  .icon-rn-Rotation.Bearings {
+    background: url('https://res.cloudinary.com/swbgtechtree/image/upload/v1630678982/rn/rotation-bearings.png') round;
+  }
+  
+  .icon-rn-Hvy.Weapons.Engineers {
+    background: url('https://res.cloudinary.com/swbgtechtree/image/upload/v1630678982/rn/hvy-weapons-engineers.png') round;
+  }
+  
+  .icon-rn-Power.Calibrator {
+    background: url('https://res.cloudinary.com/swbgtechtree/image/upload/v1630678982/rn/power-calibrator.png') round;
+  }
+  
+  .icon-rn-Tracking.and.Target.Comptr {
+    background: url('https://res.cloudinary.com/swbgtechtree/image/upload/v1630678982/rn/tracking-and-target-computers.png') round;
+  }
+    
+  .icon-rn-AA.Battery {
+    background: url('https://res.cloudinary.com/swbgtechtree/image/upload/v1630678982/rn/aa-battery.png') round;
+  }
+  
+  .icon-rn-Homing.Sensors {
+    background: url('https://res.cloudinary.com/swbgtechtree/image/upload/v1630678982/rn/homing-sensors.png') round;
+  }
+  
+  .icon-rn-Carbon.Proc.Ctr {
+    background: url('https://res.cloudinary.com/swbgtechtree/image/upload/v1630678982/rn/carbon-proc-ctr.png') round;
+  }
+  
+  .icon-rn-Handheld.Carbon.Extr {
+    background: url('https://res.cloudinary.com/swbgtechtree/image/upload/v1630678982/rn/handheld-carbon-extr.png') round;
+  }
+  
+  .icon-rn-Enhanced.Carbon.Extr {
+    background: url('https://res.cloudinary.com/swbgtechtree/image/upload/v1630678982/rn/enhanced-carbon-extr.png') round;
+  }
+  
+  .icon-rn-Hvy.Duty.Carbon.Extr {
+    background: url('https://res.cloudinary.com/swbgtechtree/image/upload/v1630678982/rn/hvy-duty-carbon-extr.png') round;
+  }
+  
+  .icon-rn-Food.Proc.Ctr {
+    background: url('https://res.cloudinary.com/swbgtechtree/image/upload/v1630678982/rn/food-proc-ctr.png') round;
+  }
+  
+  .icon-rn-Irrigation {
+    background: url('https://res.cloudinary.com/swbgtechtree/image/upload/v1630678982/rn/irrigation.png') round;
+  }
+  .icon-rn-Farm {
+    background: url('https://res.cloudinary.com/swbgtechtree/image/upload/v1630678982/rn/farm.png') round;
+  }
+  
+  .icon-rn-Harvesting.Program {
+    background: url('https://res.cloudinary.com/swbgtechtree/image/upload/v1630678982/rn/harvesting-program.png') round;
+  }
+  
+  
+  .icon-rn-Adv.Harvest.Prgm {
+    background: url('https://res.cloudinary.com/swbgtechtree/image/upload/v1630678982/rn/adv-harvest-program.png') round;
+  }
+  
+  .icon-rn-Animal.Nursery {
+    background: url('https://res.cloudinary.com/swbgtechtree/image/upload/v1630678982/rn/animal-nursery.png') round;
+  }
+  .icon-rn-Stimulants {
+    background: url('https://res.cloudinary.com/swbgtechtree/image/upload/v1630678982/rn/stimulants.png') round;
+  }
+  
+  .icon-rn-Genetics {
+    background: url('https://res.cloudinary.com/swbgtechtree/image/upload/v1630678982/rn/genetics.png') round;
+  }
+  
+  .icon-rn-Cloning {
+    background: url('https://res.cloudinary.com/swbgtechtree/image/upload/v1630678982/rn/cloning.png') round;
+  }
+  
+  .icon-rn-Nova.Crystal.Proc.Ctr {
+    background: url('https://res.cloudinary.com/swbgtechtree/image/upload/v1630678982/rn/nova-proc-ctr.png') round;
+  }
+  .icon-nova-Beamdrill.Mining {
+    background: url('https://res.cloudinary.com/swbgtechtree/image/upload/v1630678982/rn/beamdrill-mining-nova.png') round;
+  }
+  
+  .icon-nova-Hvy.Duty.Beamdrill {
+    background: url('https://res.cloudinary.com/swbgtechtree/image/upload/v1630678982/rn/hvy-duty-beamdrill-nova.png') round;
+  }
+  
+  .icon-rn-Ore.Proc.Ctr {
+    background: url('https://res.cloudinary.com/swbgtechtree/image/upload/v1630678982/rn/ore-proc-ctr.png') round;
+  }
+  
+  .icon-ore-Beamdrill.Mining {
+    background: url('https://res.cloudinary.com/swbgtechtree/image/upload/v1630678982/rn/beamdrill-mining-ore.png') round;
+  }
+  
+  .icon-ore-Hvy.Duty.Beamdrill {
+    background: url('https://res.cloudinary.com/swbgtechtree/image/upload/v1630678982/rn/hvy-duty-beamdrill-ore.png') round;
+  }
+  .icon-rn-Prefab.Shelter {
+    background: url('https://res.cloudinary.com/swbgtechtree/image/upload/v1630678982/rn/prefab-shelter.png') round;
+  }
+  .icon-rn-Gate {
+    background: url('https://res.cloudinary.com/swbgtechtree/image/upload/v1630678982/rn/gate.png') round;
+  }
+  
+  .icon-rn-Light.Wall {
+    background: url('https://res.cloudinary.com/swbgtechtree/image/upload/v1630678982/rn/light-wall.png') round;
+  }
+  .icon-rn-Medium.Wall {
+    background: url('https://res.cloudinary.com/swbgtechtree/image/upload/v1630678982/rn/medium-wall.png') round;
+  }
+  .icon-rn-Shield.Wall {
+    background: url('https://res.cloudinary.com/swbgtechtree/image/upload/v1630678982/rn/shield-wall.png') round;
+  }
+  
+  .icon-rn-Hvy.Wall {
+    background: url('https://res.cloudinary.com/swbgtechtree/image/upload/v1630678982/rn/hvy-wall.png') round;
+  }
+  .icon-rn-Monument {
+    background: url('https://res.cloudinary.com/swbgtechtree/image/upload/v1630678982/rn/monument.png') round;
+  }
+  .icon-rn-Shield.Generator {
+    background: url('https://res.cloudinary.com/swbgtechtree/image/upload/v1630678982/rn/shield-generator.png') round;
+  }
+  
+  .icon-rn-Strengthened.Superstructure {
+    background: url('https://res.cloudinary.com/swbgtechtree/image/upload/v1630678982/rn/strengthened-superstructure.png') round;
+  }
+  .icon-rn-Supercondctg.Shields {
+    background: url('https://res.cloudinary.com/swbgtechtree/image/upload/v1630678982/rn/superconducting-shields.png') round;
+  }
+  .icon-rn-Light.Turret {
+    background: url('https://res.cloudinary.com/swbgtechtree/image/upload/v1630678982/rn/light-turret.png') round;
+  }
+  
+  .icon-rn-Medium.Turret {
+    background: url('https://res.cloudinary.com/swbgtechtree/image/upload/v1630678982/rn/medium-turret.png') round;
+  }
+  
+  .icon-rn-Advanced.Turret {
+    background: url('https://res.cloudinary.com/swbgtechtree/image/upload/v1630678982/rn/advanced-turret.png') round;
+  }
+  .icon-rn-Anti-Air.Turret {
+    background: url('https://res.cloudinary.com/swbgtechtree/image/upload/v1630678982/rn/anti-air-turret.png') round;
+  }
+  
+  .icon-rn-Adv.Anti-Air.Turret {
+    background: url('https://res.cloudinary.com/swbgtechtree/image/upload/v1630678982/rn/adv-anti-air-turret.png') round;
+  }
+  
+  .icon-rn-Power.Core {
+    background: url('https://res.cloudinary.com/swbgtechtree/image/upload/v1630678982/rn/power-core.png') round;
+  }
+  .icon-rn-Power.Droid {
+    background: url('https://res.cloudinary.com/swbgtechtree/image/upload/v1630678982/rn/power-droid.png') round;
+  }
+  .icon-rn-Strengthened.Assembly {
+    background: url('https://res.cloudinary.com/swbgtechtree/image/upload/v1630678982/rn/strengthened-assembly.png') round;
+  }
+  
+  .icon-rn-Efficient.Buildings {
+    background: url('https://res.cloudinary.com/swbgtechtree/image/upload/v1630678982/rn/efficient-buildings.png') round;
+  }
+  
+  .icon-rn-Power.Core.Shielding {
+    background: url('https://res.cloudinary.com/swbgtechtree/image/upload/v1630678982/rn/power-core-shielding.png') round;
+  }
+  .icon-rn-Mechanics {
+    background: url('https://res.cloudinary.com/swbgtechtree/image/upload/v1630928553/red_x.png') round, url('https://res.cloudinary.com/swbgtechtree/image/upload/v1630678982/rn/mechanics.png') round;
+  }
+  .icon-rn-Advanced.Propulsion {
+    background: url('https://res.cloudinary.com/swbgtechtree/image/upload/v1630678982/rn/advanced-propulsion.png') round;
+  }
+  .icon-rn-Redoubled.Efforts {
+    background: url('https://res.cloudinary.com/swbgtechtree/image/upload/v1630678982/rn/redoubled-efforts.png') round;
+  }
+  
+  .icon-rn-Adv.Redesign {
+    background: url('https://res.cloudinary.com/swbgtechtree/image/upload/v1630678982/rn/adv-redesign.png') round;
+  }
+  .icon-rn-Technicians {
+    background: url('https://res.cloudinary.com/swbgtechtree/image/upload/v1630928553/red_x.png') round, url('https://res.cloudinary.com/swbgtechtree/image/upload/v1630678982/rn/technicians.png') round;
+  }
+  .icon-rn-Advanced.Engines {
+    background: url('https://res.cloudinary.com/swbgtechtree/image/upload/v1630678982/rn/advanced-engines.png') round;
+  }
+  .icon-rn-Taxation {
+    background: url('https://res.cloudinary.com/swbgtechtree/image/upload/v1630678982/rn/taxation.png') round;
+  }
+  .icon-rn-Royal.Crusader {
+    background: url('https://res.cloudinary.com/swbgtechtree/image/upload/v1630678982/rn/royal-crusader.png') round;
+  }
+  .icon-rn-Elite.Royal.Crusader {
+    background: url('https://res.cloudinary.com/swbgtechtree/image/upload/v1630678982/rn/elite-royal-crusader.png') round;
+  }
+  .icon-rn-Battle.Armor {
+    background: url('https://res.cloudinary.com/swbgtechtree/image/upload/v1630678982/rn/battle-armor.png') round;
+  }
+  .icon-rn-Interceptor {
+    background: url('https://res.cloudinary.com/swbgtechtree/image/upload/v1630678982/rn/interceptor.png') round;
+  }
+  .icon-rn-Advanced.Generator {
+    background: url('https://res.cloudinary.com/swbgtechtree/image/upload/v1630678982/rn/adv-generator.png') round;
+  }
+  .icon-rn-Sentry.Post {
+    background: url('https://res.cloudinary.com/swbgtechtree/image/upload/v1630678982/rn/sentry-post.png') round;
+  }

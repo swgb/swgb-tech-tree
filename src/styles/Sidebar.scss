@@ -1,0 +1,50 @@
+.sidebar {
+  z-index: 10;
+  color: white;  
+  flex-wrap: nowrap;
+  flex-grow: 1;
+  display: flex;
+  width: 100%;
+  align-items: left;
+  flex-direction:row;
+  // font-family: 'Exo 2', sans-serif;
+
+  //font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+  //font-family: Arial, Helvetica, sans-serif;
+  //font-family: 'Merriweather', Georgia, 'Times New Roman', Times, serif;
+  font-size: 13px;
+  text-align: left;
+  .sidebar-inner {
+    z-index: 10;
+    border: solid 2px skyblue;
+    margin: 40px 10px;
+    border-radius: 6px;
+  }
+
+  select {
+    z-index: 10;
+    background: #072635;
+    color: white;
+    border-radius: 3px;
+    //font-weight: bold;
+    //font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-color: skyblue;
+    font-size: 14px;
+    padding: .5em;
+    text-transform: capitalize;
+    width: 150px;
+  }
+
+}
+
+.info-bar {
+  z-index: 10;
+  border: solid 1.5px skyblue;
+  margin: 65px 5px;
+  border-radius: 10px;
+  a {
+    color: yellow;
+  }
+}
+

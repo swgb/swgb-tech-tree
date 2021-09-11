@@ -1,0 +1,289 @@
+$nodeSize: 90px;
+$connectorSize: $nodeSize / 3;
+$blankSize: $nodeSize * 2 - $connectorSize;
+$blankConnectorSize: $blankSize / 2;
+
+$feudalAgeMargin: $nodeSize * 3 - 5;
+$castleAgeMargin: $feudalAgeMargin + (300);
+$imperialAgeMargin: $castleAgeMargin + (300);
+
+body {
+  background: #002529;
+}
+
+.App {
+  background: url('https://res.cloudinary.com/swbgtechtree/image/upload/v1629582953/53240_i_menu_dialogbox_background_tov9ok.png');
+ // background: url('https://res.cloudinary.com/webdevacademy/image/upload/v1573825790/techtree-bg.png');
+ // font-family: 'Times New Roman', Times, serif;
+  
+ text-align: center;
+}
+
+.container {
+  color: black;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  min-height: 100vh;
+}
+
+ul {
+  list-style: none;
+}
+
+.btn {
+  color: white;
+  cursor: pointer;
+  //font-family: 'Times New Roman', Times, serif;
+  //font-family: Arial, Helvetica, sans-serif;
+  //font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  //font-family: 'Merriweather', Georgia, 'Times New Roman', Times, serif;
+  z-index: 10;
+  font-size: 7pt;
+  height: $nodeSize;
+  margin: 1rem 0;
+  padding: 0;
+  text-transform: capitalize;
+  text-overflow: visible;
+  overflow-x: visible;
+  word-wrap: break-word;
+  white-space: nowrap;
+  width: $nodeSize;
+
+  &:focus {
+    outline: none;
+  }
+
+  > .icon {
+    background-color: black;
+    border: solid 1px;
+    border-style: inset;
+    height: 50px;
+    margin: 0 auto;
+    margin-bottom: 5px;
+    margin-top: -1.2em;
+    width: 50px;
+    
+  }
+}
+
+
+.building,
+.tech,
+.unit,
+.unique-unit,
+.notResearchable,
+.wrapper {
+  z-index: 10;
+  align-items: center;
+  display: flex;
+  list-style: none;
+  // margin: .5rem 0;
+  padding: 0;
+  position: relative;
+  width: 100%;
+
+  transition: all 1s;
+	-webkit-transition: all 1s;
+	-moz-transition: all 1s;
+
+  .children,
+  .building,
+  .tech,
+  .unit,
+  .unique-unit {
+    flex: 1 0 0;
+  }
+}
+
+.node {
+  padding: .625rem 0;
+}
+
+.node::before, 
+.node::after {
+  content: "";
+  position: relative;
+}
+
+.node::before {
+  border-top: 2px solid #FFF;
+  display: inline-block;
+  top: -25px;
+  width: $connectorSize;
+}
+
+.node::after {
+  border-top: 2px solid rgb(255, 255, 255);
+  display: inline-block;
+  top: -25px;
+  width: $connectorSize;
+}
+
+.node:last-child::after {
+  display: none;
+}
+
+// remove from root items
+.techtree-inner > .building > .node::before {
+  display: none;
+}
+
+.wrapper > .blank {  
+  // background: rgba(0,1,0,0.1);
+  height: $nodeSize;
+  padding: 0;
+  width: $blankSize;
+
+  &::before,
+  &::after {
+    border-top: 2px solid #FFF;
+    display: inline-block;
+    top: 32%;
+    width: $blankConnectorSize;
+  }
+  
+  &::after {
+    width: $blankConnectorSize;
+  }
+}
+
+.wrapper.no-connector {
+  >.blank::before,
+  >.blank::after {
+    border: none;
+  } 
+}
+
+.techtree-inner > .wrapper > .blank {
+  width: $nodeSize + $connectorSize;
+}
+
+.children {
+  position: relative;
+  
+  > ul::before {
+    background: white;
+    bottom: 0;
+    content: "";    
+    position: absolute; 
+    top: 0;
+    width: 2px;
+    z-index: 100;
+  }
+
+  > ul::after {
+    background: white;
+    content: "";    
+    position: absolute; 
+    width: 2px;
+  }
+
+  > ul:first-child::before {
+    bottom: 0;
+    height: 50%;
+    position: absolute;
+    top: unset;
+  }
+
+  > ul:last-child::before {
+    height: 50%;
+    position: absolute;
+    top: 0;
+  }
+}
+
+.btn-building {
+  background-color: #d23700;
+  border-color: #e05933;
+  background: rgb(210,55,0);
+  background: linear-gradient(180deg, rgba(210,55,0,1) 0%, rgba(155,41,0,1) 80%);
+}
+
+.btn-tech {
+  background: rgb(85,119,52);
+  background: linear-gradient(180deg, rgba(85,119,52,1) 0%, rgba(44,62,27,1) 80%);
+  border-color: #557734;
+}
+
+.btn-unit {
+  background-color: #5492b0;
+  background: rgb(84,146,176);
+  background: linear-gradient(180deg, rgba(84,146,176,1) 0%, rgba(42,73,88,1) 80%);
+  border-color: #5492b0;
+}
+
+.btn-unique-unit {
+  background-color: #AF30A3;
+  // background: rgb(84,146,176);
+  background: linear-gradient(180deg, rgb(172, 46, 159) 0%, rgb(104, 9, 94));
+  border-color: #AF30A3;
+}
+
+.btn-notResearchable {
+  background-color: gray;
+  // background: rgb(84,146,176);
+  background: linear-gradient(180deg, rgb(95, 95, 95) 0%, rgb(60, 60, 60));
+  border-color: gray;
+}
+
+@import 'GalacticEmpire.scss';
+@import 'Resistance.scss';
+@import 'RebelAlliance.scss';
+@import 'Republic.scss';
+@import 'TradeFederation.scss';
+@import 'FirstOrder.scss';
+@import 'Zann.scss';
+@import 'RoyalNaboo.scss';
+@import 'Confederacy.scss';
+@import 'Geonosians.scss';
+@import 'styles/Sidebar.scss';
+@import 'Gungans.scss';
+@import 'Wookie.scss';
+
+.age {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  background: rgba(95, 92, 247, 0.3);
+  background-blend-mode: lighten;
+  width: 10px;
+  
+  // w = 360px
+
+  &.feudal-age {
+    left: $feudalAgeMargin;
+  }
+
+  &.castle-age {
+    left: $castleAgeMargin;
+  }
+
+  &.imperial-age {
+    left: $imperialAgeMargin;
+  }
+}
+
+.tooltip .tooltip-inner {
+    overflow-wrap: break-word;
+    display: block;
+    white-space: pre-wrap;
+    text-overflow: ellipsis;
+    max-width: 10vw;
+}
+
+.mw-20{
+  overflow-wrap: break-word;
+  white-space: normal;
+  max-width: 300px;
+  text-align: left;
+  //font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  //font-family: 'Merriweather', Georgia, 'Times New Roman', Times, serif;
+  color: white;
+  text-transform: none;
+  z-index: 20;
+}
+
+.icon-notResearchable {
+  filter: grayscale(100%);
+}
