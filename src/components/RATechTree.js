@@ -31,7 +31,7 @@ const TroopCenterTechTree = () => {
       <Unit faction="ra" name="Grenade Trooper" food="90" nova="40" hp="45" attack="1" armor="1" duraarmor="3" range="6" unitname="Thermal Detonator Trooper" description="Artillery combat unit. The thermal grenades that this trooper lobs have an area of attack effect, and are effective against mechs and shields, but ineffective against buildings and non-mechanized units. Upgrades: creation speed (Fortress); armor, attack (War Center); attack, build speed, range, line of sight, speed (Troop Center); more resistant to force users (Temple)"></Unit>
       <Unit faction="ra" name="Anti-Air Trooper" carbon="35" food="35" hp="30" attack="13" armor="0" duraarmor="1" range="6" unitname="Missile Trooper" description="Anti-Aircraft combat unit. Good attack against all air units. Upgrades: creation speed (Fortress); armor, attack (War Center); attack (Research Center); build speed, range, line of sight, speed, to Hvy Anti-Air Trooper 100F, 50N (Troop Center); more resistant to force users (Temple)">
         <Wrapper>
-          <Unit faction="ra" name="Hvy. Anti-Air Trooper" carbon="35" food="35" hp="35" attack="9" armor="0" duraarmor="1" range="7" unitname="Armored Missile Trooper." description="Stronger than Anti-Air Trooper. Anti-Aircraft combat unit. Good attack against all air units. Upgrades: creation speed (Fortress); armor, attack (War Center); attack (Research Center); build speed, range, line of sight, speed (Troop Center); more resistant to force users (Temple)"></Unit>
+          <Unit faction="ra" name="Hvy. Anti-Air Trooper" carbon="35" food="35" hp="35" attack="9" armor="0" duraarmor="1" range="7" unitname="Armored Missile Trooper" description="Stronger than Anti-Air Trooper. Anti-Aircraft combat unit. Good attack against all air units. Upgrades: creation speed (Fortress); armor, attack (War Center); attack (Research Center); build speed, range, line of sight, speed (Troop Center); more resistant to force users (Temple)"></Unit>
         </Wrapper>
       </Unit>
       <Tech faction="ra" name="Macro Binoculars" food="75" description="All Troop Center units gain +1 Line of Sight.  Additionally, all Troop Center units (except Mounted Troopers) gain +1 Range.">
@@ -53,7 +53,7 @@ const TroopCenterTechTree = () => {
               <Tech faction="ra" name="Dexterity" food="450" carbon="150" description="All Troop Center units gain +5% speed."></Tech>
             </Wrapper>
           </Tech>
-          <Tech faction="ra" unique name="Plasma Detonators" food="400" nova="200" unitname="Rebel Alliance Specific." description="Grenade Troopers gain +3 Attack."></Tech>
+          <Tech faction="ra" unique name="Plasma Detonators" food="400" nova="200" unitname="Rebel Alliance Specific" description="Grenade Troopers gain +3 Attack."></Tech>
         </Wrapper>
       </Wrapper>
     </Wrapper>
