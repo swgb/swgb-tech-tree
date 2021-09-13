@@ -53,7 +53,7 @@ const TroopCenterTechTree = () => {
               <Tech faction="ra" name="Dexterity" food="450" carbon="150" description="All Troop Center units gain +5% speed."></Tech>
             </Wrapper>
           </Tech>
-          <Tech faction="ra" unique name="Plasma Detonators" food="400" nova="200" unitname="Rebel Alliance Specific." description="Grenade Troopers gain +3 Attack."></Tech>
+          <Tech faction="ra" unique name="Plasma Detonators" food="400" nova="200" unitname="Rebel Alliance Specific" description="Grenade Troopers gain +3 Attack."></Tech>
         </Wrapper>
       </Wrapper>
     </Wrapper>
