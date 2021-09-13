@@ -18,53 +18,53 @@ import ZannTechTree from './ZannTechTree';
  */
 const TechTree = (props) => {
   if (props.civ == "10271") {
-    return (<RATechTree/>)
+    return (<RATechTree />)
   }
 
   if (props.civ == "10272") {
-    return (<EmpireTechTree/>)
+    return (<EmpireTechTree />)
   }
 
   if (props.civ == "10273") {
-    return (<TFTechTree/>)
+    return (<TFTechTree />)
   }
 
   if (props.civ == "10274") {
-    return (<RepTechTree/>)
+    return (<RepTechTree />)
   }
 
   if (props.civ == "10281") {
-    return (<RSTechTree/>)
+    return (<RSTechTree />)
   }
 
   if (props.civ == "10278") {
-    return (<ZannTechTree/>)
+    return (<ZannTechTree />)
   }
 
   if (props.civ == "10280") {
-    return (<FOTechTree/>)
+    return (<FOTechTree />)
   }
 
   if (props.civ == "10277") {
-    return (<WoTechTree/>)
+    return (<WoTechTree />)
   }
 
   if (props.civ == "10275") {
-    return (<ConfTechTree/>)
+    return (<ConfTechTree />)
   }
 
   if (props.civ == "10276") {
-    return (<GunganTechTree/>)
+    return (<GunganTechTree />)
   }
 
   if (props.civ == "10282") {
-    return (<GeoTechTree/>)
+    return (<GeoTechTree />)
   }
   if (props.civ == "10279") {
-    return (<RNTechTree/>)
-  }  
+    return (<RNTechTree />)
+  }
 
-  return(<span>WOLOLOLOLO!!1!</span>)
+  return (<span>WOLOLOLOLO!!1!</span>)
 }
 
 export default TechTree;

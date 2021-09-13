@@ -1,3 +1,0 @@
-const lumberCamp = {
-  id: null
-}

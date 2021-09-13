@@ -12,11 +12,11 @@ body {
 }
 
 .App {
-  background: url('https://res.cloudinary.com/swbgtechtree/image/upload/v1629582953/53240_i_menu_dialogbox_background_tov9ok.png');
- // background: url('https://res.cloudinary.com/webdevacademy/image/upload/v1573825790/techtree-bg.png');
- // font-family: 'Times New Roman', Times, serif;
-  
- text-align: center;
+  background: url("https://res.cloudinary.com/swbgtechtree/image/upload/v1629582953/53240_i_menu_dialogbox_background_tov9ok.png");
+  // background: url('https://res.cloudinary.com/webdevacademy/image/upload/v1573825790/techtree-bg.png');
+  // font-family: 'Times New Roman', Times, serif;
+
+  text-align: center;
 }
 
 .container {
@@ -63,10 +63,8 @@ ul {
     margin-bottom: 5px;
     margin-top: -1.2em;
     width: 50px;
-    
   }
 }
-
 
 .building,
 .tech,
@@ -84,8 +82,8 @@ ul {
   width: 100%;
 
   transition: all 1s;
-	-webkit-transition: all 1s;
-	-moz-transition: all 1s;
+  -webkit-transition: all 1s;
+  -moz-transition: all 1s;
 
   .children,
   .building,
@@ -97,17 +95,17 @@ ul {
 }
 
 .node {
-  padding: .625rem 0;
+  padding: 0.625rem 0;
 }
 
-.node::before, 
+.node::before,
 .node::after {
   content: "";
   position: relative;
 }
 
 .node::before {
-  border-top: 2px solid #FFF;
+  border-top: 2px solid #fff;
   display: inline-block;
   top: -25px;
   width: $connectorSize;
@@ -129,7 +127,7 @@ ul {
   display: none;
 }
 
-.wrapper > .blank {  
+.wrapper > .blank {
   // background: rgba(0,1,0,0.1);
   height: $nodeSize;
   padding: 0;
@@ -137,22 +135,22 @@ ul {
 
   &::before,
   &::after {
-    border-top: 2px solid #FFF;
+    border-top: 2px solid #fff;
     display: inline-block;
     top: 32%;
     width: $blankConnectorSize;
   }
-  
+
   &::after {
     width: $blankConnectorSize;
   }
 }
 
 .wrapper.no-connector {
-  >.blank::before,
-  >.blank::after {
+  > .blank::before,
+  > .blank::after {
     border: none;
-  } 
+  }
 }
 
 .techtree-inner > .wrapper > .blank {
@@ -161,12 +159,12 @@ ul {
 
 .children {
   position: relative;
-  
+
   > ul::before {
     background: white;
     bottom: 0;
-    content: "";    
-    position: absolute; 
+    content: "";
+    position: absolute;
     top: 0;
     width: 2px;
     z-index: 100;
@@ -174,8 +172,8 @@ ul {
 
   > ul::after {
     background: white;
-    content: "";    
-    position: absolute; 
+    content: "";
+    position: absolute;
     width: 2px;
   }
 
@@ -196,28 +194,28 @@ ul {
 .btn-building {
   background-color: #d23700;
   border-color: #e05933;
-  background: rgb(210,55,0);
-  background: linear-gradient(180deg, rgba(210,55,0,1) 0%, rgba(155,41,0,1) 80%);
+  background: rgb(210, 55, 0);
+  background: linear-gradient(180deg, rgba(210, 55, 0, 1) 0%, rgba(155, 41, 0, 1) 80%);
 }
 
 .btn-tech {
-  background: rgb(85,119,52);
-  background: linear-gradient(180deg, rgba(85,119,52,1) 0%, rgba(44,62,27,1) 80%);
+  background: rgb(85, 119, 52);
+  background: linear-gradient(180deg, rgba(85, 119, 52, 1) 0%, rgba(44, 62, 27, 1) 80%);
   border-color: #557734;
 }
 
 .btn-unit {
   background-color: #5492b0;
-  background: rgb(84,146,176);
-  background: linear-gradient(180deg, rgba(84,146,176,1) 0%, rgba(42,73,88,1) 80%);
+  background: rgb(84, 146, 176);
+  background: linear-gradient(180deg, rgba(84, 146, 176, 1) 0%, rgba(42, 73, 88, 1) 80%);
   border-color: #5492b0;
 }
 
 .btn-unique-unit {
-  background-color: #AF30A3;
+  background-color: #af30a3;
   // background: rgb(84,146,176);
   background: linear-gradient(180deg, rgb(172, 46, 159) 0%, rgb(104, 9, 94));
-  border-color: #AF30A3;
+  border-color: #af30a3;
 }
 
 .btn-notResearchable {
@@ -227,19 +225,19 @@ ul {
   border-color: gray;
 }
 
-@import 'GalacticEmpire.scss';
-@import 'Resistance.scss';
-@import 'RebelAlliance.scss';
-@import 'Republic.scss';
-@import 'TradeFederation.scss';
-@import 'FirstOrder.scss';
-@import 'Zann.scss';
-@import 'RoyalNaboo.scss';
-@import 'Confederacy.scss';
-@import 'Geonosians.scss';
-@import 'styles/Sidebar.scss';
-@import 'Gungans.scss';
-@import 'Wookie.scss';
+@import "GalacticEmpire.scss";
+@import "Resistance.scss";
+@import "RebelAlliance.scss";
+@import "Republic.scss";
+@import "TradeFederation.scss";
+@import "FirstOrder.scss";
+@import "Zann.scss";
+@import "RoyalNaboo.scss";
+@import "Confederacy.scss";
+@import "Geonosians.scss";
+@import "styles/Sidebar.scss";
+@import "Gungans.scss";
+@import "Wookie.scss";
 
 .age {
   position: fixed;
@@ -248,7 +246,7 @@ ul {
   background: rgba(95, 92, 247, 0.3);
   background-blend-mode: lighten;
   width: 10px;
-  
+
   // w = 360px
 
   &.feudal-age {
@@ -265,14 +263,14 @@ ul {
 }
 
 .tooltip .tooltip-inner {
-    overflow-wrap: break-word;
-    display: block;
-    white-space: pre-wrap;
-    text-overflow: ellipsis;
-    max-width: 10vw;
+  overflow-wrap: break-word;
+  display: block;
+  white-space: pre-wrap;
+  text-overflow: ellipsis;
+  max-width: 10vw;
 }
 
-.mw-20{
+.mw-20 {
   overflow-wrap: break-word;
   white-space: normal;
   max-width: 300px;

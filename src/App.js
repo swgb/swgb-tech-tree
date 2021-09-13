@@ -7,10 +7,10 @@ import CivDescription from './components/CivDescription';
 import { civilizations } from './data/civilization-context';
 
 function App() {
-  const [civilization, setValue] = React.useState(10271)
+  const [civilization, setValue] = React.useState(10275)
   const civOptions = []
   for (let [key, value] of Object.entries(civilizations)) {
-    civOptions.push({key, value})
+    civOptions.push({ key, value })
   }
 
   return (
@@ -18,30 +18,30 @@ function App() {
       {
         <section className="sidebar">
           <div className="sidebar-inner">
-          <Fragment>
-            <center><select value={civilization} onChange={e => setValue(e.target.value)}>
-              {civOptions.map(item => {
-                return(<option value={item.value}>{item.key}</option>)
-              })}
-            </select></center>
-          <CivDescription civ={civilization}/>
-          </Fragment>
+            <Fragment>
+              <center><select value={civilization} onChange={e => setValue(e.target.value)}>
+                {civOptions.map(item => {
+                  return (<option value={item.value}>{item.key}</option>)
+                })}
+              </select></center>
+              <CivDescription civ={civilization} />
+            </Fragment>
           </div>
           <div className="info-bar">
-                <Fragment>
-                  <b>Star Wars Galactic Battlegrounds Tech Tree</b>.<br/>
-                  This website contains tech trees for the base factions and the <a href="https://www.moddb.com/mods/star-wars-galactic-battlegrounds-expanding-fronts">Expanded Fronts mod factions</a><br/>
-                  Please message <i>aoe2#9999</i> or <i>petr#9882</i> on Discord if you see any errors.<br/>
-                  We recommend joining <a href="https://discord.gg/uHS9rrS8RY">Expanded Fronts discord server.</a><br/>
-                  <i>Last updated on 09/10/2021</i>. - Project source code @ <a href="https://github.com/azurda/swgb-tech-tree">Github</a>.     
-                </Fragment>
-                </div>
+            <Fragment>
+              <b>Star Wars Galactic Battlegrounds Tech Tree</b>.<br />
+              This website contains tech trees for the base factions and the <a href="https://www.moddb.com/mods/star-wars-galactic-battlegrounds-expanding-fronts">Expanded Fronts mod factions</a><br />
+              Please message <i>aoe2#9999</i> or <i>petr#9882</i> on Discord if you see any errors.<br />
+              We recommend joining <a href="https://discord.gg/uHS9rrS8RY">Expanded Fronts discord server.</a> - More detailed info about units at the <a href="https://expanding-fronts.fandom.com/wiki/Category:Tech_Trees">EF Wiki</a>.<br />
+              <i>Last updated on 09/13/2021</i>. - Project source code @ <a href="https://github.com/azurda/swgb-tech-tree">Github</a>.
+            </Fragment>
+          </div>
         </section>
 
-            
+
       }
-      
-      
+
+
       <div className="container">
         <section className="techtree">
           <div className="techtree-inner">

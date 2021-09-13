@@ -3,11 +3,11 @@ import { civilizations, CivilizationContext } from '../data/civilization-context
 
 const Sidebar = () => {
 
-  const civsOptions = []  
+  const civsOptions = []
   for (let [key, value] of Object.entries(civilizations)) {
     civsOptions.push({ key, value });
   }
-  
+
   return (
     <Fragment>
       <select>

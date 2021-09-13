@@ -16,5 +16,5 @@ export let civilizations = {
 };
 
 export let CivilizationContext = React.createContext(
-  civilizations['Rebel Alliance']// default value
+  civilizations['Confederacy']// default value
 );

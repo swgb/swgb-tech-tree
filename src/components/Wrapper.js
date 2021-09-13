@@ -2,7 +2,7 @@ import React from 'react';
 
 function Wrapper(props) {
   let classes = 'children';
-  
+
   if (React.Children.count(props.children) <= 1) {
     classes = 'child'
   }
@@ -13,7 +13,7 @@ function Wrapper(props) {
     <ul className={`wrapper ${connector}`}>
       <li className="node blank" />
       <li className={classes}>
-        { props.children }
+        {props.children}
       </li>
     </ul>
   );
